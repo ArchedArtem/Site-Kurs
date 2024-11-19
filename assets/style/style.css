@@ -169,13 +169,31 @@ h3{
     padding: 5%;
 }
 
-.section-recommendation .container .cards{
+.section-recommendation .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-recommendation .container .slide{
+    width: 100%;
+}
+
+.section-recommendation .container .slide .carousel-item .cards{
     display: flex;
     justify-content: space-between;
     margin-top: 4%;
 }
 
-.section-recommendation .container .cards .card{
+.section-recommendation .container .slide .carousel-control-prev{
+    margin-left: -15%;
+}
+
+.section-recommendation .container .slide .carousel-control-next{
+    margin-right: -15%;
+}
+
+.section-recommendation .container .slide .cards .card{
     height: 450px;
     width: 30% !important;
     background: none;
@@ -187,12 +205,12 @@ h3{
     border: 5px white solid;
 }
 
-.section-recommendation .container .cards .card img{
+.section-recommendation .container .slide .card img{
     width: 70%;
     margin-top: 5%;
 }
 
-.section-recommendation .container .cards .card .card-body{
+.section-recommendation .container .slide .card .card-body{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -200,15 +218,15 @@ h3{
     align-items: center;
 }
 
-.section-recommendation .container .cards .card .card-body h5{
+.section-recommendation .container .slide .card .card-body h5{
     font-size: 32px;
 }
 
-.section-recommendation .container .cards .card .card-body p{
+.section-recommendation .container .slide .card .card-body p{
     font-size: 16px;
 }
 
-.section-recommendation .container .cards .card .knopka-rec{
+.section-recommendation .container .slide .card .knopka-rec{
     width: 60%;
 }
 
