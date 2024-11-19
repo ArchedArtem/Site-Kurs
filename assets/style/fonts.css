@@ -1,0 +1,21 @@
+@font-face{
+    font-family: 'Merriweather-Bold';
+    src: url(../fonts/Merriweather-Bold.ttf);
+}
+
+@font-face{
+    font-family: 'Merriweather-Regular';
+    src: url(../fonts/Merriweather-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'Comfortaa-Regular';
+    src: url(../fonts/Comfortaa-VariableFont_wght.ttf);
+    font-weight: 400;
+}
+
+@font-face{
+    font-family: 'Comfortaa-Bold';
+    src: url(../fonts/Comfortaa-VariableFont_wght.ttf);
+    font-weight: 700;
+}

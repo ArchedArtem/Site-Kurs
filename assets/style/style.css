@@ -1,0 +1,87 @@
+@import url(./fonts.css);
+
+body{
+    background-color: #243878 !important;
+    overflow-x: hidden !important;
+}
+
+*{
+    font-family: 'Merriweather-Regular', sans-serif;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+a{
+    text-decoration: none !important;
+    color: inherit !important;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+p{
+    color: white;
+    margin-bottom: 0 !important;
+}
+
+/* SECTION NAVIGATION */
+
+.section-navigation .container .middle p{
+    font-family: 'Comfortaa-Bold', sans-serif;
+    font-size: 20px;
+}
+
+.section-navigation .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-navigation .container .middle{
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.knopka{
+    border-radius: 10px;
+    width: 20%;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.knopka button{
+    font-family: 'Comfortaa-Regular', sans-serif;
+    color: white;
+    font-size: 20px;
+    width: 98%;
+    height: 100%;
+    background-color: #009FE3;
+    background-size: contain;
+    border-radius: 30px;
+    transition: .3s;
+}
+
+.knopka button:hover{
+    background-color: #036B98;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.section-navigation .container .middle a{
+    transition: .6s;
+}
+
+.section-navigation .container .middle a:hover{
+    border-bottom: 3px white solid;
+    transition: .6s;
+}
