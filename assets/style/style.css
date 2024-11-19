@@ -211,3 +211,53 @@ h3{
 .section-recommendation .container .cards .card .knopka-rec{
     width: 60%;
 }
+
+/* SECTION SERVICES */
+
+.section-services{
+    background-image: url(../img/services.svg);
+    background-size: cover;
+    padding: 5%;
+}
+
+.section-services .container .text{
+    text-align: center;
+}
+
+.section-services .container .text p{
+    font-family: "Comfortaa-SemiBold", sans-serif !important;
+    font-size: 24px;
+    color: #009FE3 !important;
+}
+
+.section-services .container .cards{
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section-services .container .cards .card li{
+    border: none !important;
+    background: none !important;
+    padding-left: 0;
+}
+
+.section-services .container .cards .card{
+    margin-top: 2%;
+    width: 48% !important;
+    border: none !important;
+    background: none !important;
+}
+
+.section-services .container .cards .card .li-h3{
+    font-family: "Comfortaa-Bold", sans-serif;
+    font-size: 24px;
+    color: #009FE3 !important;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.section-services .container .cards .card .li-p{
+    font-size: 18px;
+}
