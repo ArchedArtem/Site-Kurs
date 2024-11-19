@@ -13,6 +13,7 @@ body{
     margin: 0;
     box-sizing: border-box;
     outline: none;
+    color: white !important ;
 }
 
 a{
@@ -84,4 +85,74 @@ p{
 .section-navigation .container .middle a:hover{
     border-bottom: 3px white solid;
     transition: .6s;
+}
+
+/* SECTION WELCOME */
+
+.section-welcome{
+    background-image: url(../img/fon.png);
+    background-size: cover;
+    padding: 5%;
+}
+
+.section-welcome .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-welcome .container .text{
+    text-align: center;
+}
+
+.section-welcome .container .text h3{
+    font-size: 48px;
+    font-family: 'Comfortaa-Bold', sans-serif;
+}
+
+.section-welcome .container .text p{
+    color: #009FE3 !important;
+    font-size: 24px;
+    font-family: 'Comfortaa-SemiBold', sans-serif;
+}
+
+.section-welcome .container .block .block-left p{
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.section-welcome .container .block{
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-between;
+    -webkit-margin-collapse: 100px;
+}
+
+.section-welcome .container .block .carousel-indicators{
+    padding-bottom: 0%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section-welcome .container .block .carousel-indicators button{
+    width: 30%;
+    height: 20px;
+    border-radius: 20px;
+}
+
+.section-welcome .container .block .carousel-indicators .active{
+    background-color: #009FE3;
+}
+
+.section-welcome .container .block .block-left{
+    width: 40%;
+}
+
+.section-welcome .container .block .block-left .knopka-blog{
+    width: 50%;
+    margin-top: 15%;
+}
+
+.section-welcome .container .block .slide{
+    width: 40%;
 }

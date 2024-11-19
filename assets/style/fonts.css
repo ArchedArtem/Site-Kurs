@@ -19,3 +19,9 @@
     src: url(../fonts/Comfortaa-VariableFont_wght.ttf);
     font-weight: 700;
 }
+
+@font-face{
+    font-family: 'Comfortaa-SemiBold';
+    src: url(../fonts/Comfortaa-VariableFont_wght.ttf);
+    font-weight: 600;
+}
