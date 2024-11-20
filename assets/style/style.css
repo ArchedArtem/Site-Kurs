@@ -511,9 +511,8 @@ footer .container .icons {
 
     .burger a {
         font-size: 24px;
-        text-decoration: underline;
-
-        letter-spacing: 5px;
+        text-decoration: underline !important;
+        font-family: "Comfortaa-Bold", sans-serif;
     }
 
     .offcanvas-end{
@@ -690,5 +689,31 @@ footer .container .icons {
 
     .burger a{
         font-size: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 98%;
+    }
+
+    .section-welcome .container .block .block-left p{
+        font-size: 8px;
+    }
+
+    .knopka-rec button{
+        font-size: 8px !important;
+    }
+
+    footer .container .text p{
+        font-size: 10px !important;
+    }
+}
+
+
+
+@media (max-width: 480px) {
+    .container {
+        width: 98%;
     }
 }
