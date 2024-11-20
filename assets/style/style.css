@@ -582,3 +582,113 @@ footer .container .icons {
         font-size: 12px;
     }
 }
+
+@media (max-width: 768px) {
+    .container {
+        width: 98%;
+    }
+
+    .section{
+        padding: 10%;
+    }
+
+    h3{
+        font-size: 22px !important;
+    }
+
+    .section-welcome .container .text p{
+        font-size: 12px !important;
+    }
+
+    .section-welcome .container .block{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .section-welcome .container .block .block-left{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .section-welcome .container .block .block-left p{
+        width: 60%;
+        font-size: 10px;
+    }
+
+    .section-welcome .container .block .carousel-indicators{
+        padding-bottom: 0;
+        margin-bottom: -15%;
+    }
+
+    .section-welcome .container .block .slide{
+        margin-top: 5%;
+        width: 70%;
+    }
+
+    .section-recommendation .container .slide .cards .card {
+        height: 200px;
+    }
+
+    .section-recommendation .container .slide .card .card-body h5 {
+        font-size: 13px;
+    }
+
+    .section-recommendation .container .slide .card .card-body p {
+        font-size: 8px;
+    }
+
+    .knopka-rec{
+        height: 30%;
+        width: 90% !important;
+    }
+
+    .knopka-rec button{
+        font-size: 10px !important;
+    }
+
+    .section-services .container .text p {
+        font-size: 12px;
+    }
+
+    .section-services .container .cards .card .li-h3 {
+        font-size: 15px;
+    }
+
+    .section-events .container .cards .card .col-md-4{
+        border-right: none;
+        border-bottom: 5px white solid;
+    }
+
+    .section-events .container .cards .card .col-md-4 h4{
+        font-size: 34px;
+    }
+
+    .section-events .container .cards .card .col-md-4 h5{
+        font-size: 30px;
+    }
+
+    .section-events .container .cards .card .col-md-8 h5{
+        font-size: 18px;
+    }
+
+    footer .container .text p{
+        font-size: 12px !important;
+    }
+
+    footer .container .icons img{
+        width: 20px;
+        height: 20px;
+    }
+
+    footer .logo{
+        width: 75px;
+        height: 75px;
+    }
+
+    .burger a{
+        font-size: 20px;
+    }
+}
