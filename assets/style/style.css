@@ -1,11 +1,11 @@
 @import url(./fonts.css);
 
-body{
+body {
     background-color: #243878 !important;
     overflow-x: hidden !important;
 }
 
-*{
+* {
     font-family: 'Merriweather-Regular', sans-serif;
     padding: 0;
     border: none;
@@ -13,10 +13,10 @@ body{
     margin: 0;
     box-sizing: border-box;
     outline: none;
-    color: white !important ;
+    color: white !important;
 }
 
-a{
+a {
     text-decoration: none !important;
     color: inherit !important;
 }
@@ -26,38 +26,50 @@ a{
     margin: 0 auto;
 }
 
-p{
+p {
     color: white;
     margin-bottom: 0 !important;
 }
 
-h3{
+h3 {
     font-family: "Comfortaa-Bold";
     font-size: 48px !important;
     text-align: center;
 }
 
+.section{
+    scroll-margin-top: 1em;
+}
+
+nav{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #243878;
+    z-index: 999;
+}
+
 /* SECTION NAVIGATION */
 
-.section-navigation .container .middle p{
+.section-navigation .container .middle p {
     font-family: 'Comfortaa-Bold', sans-serif;
     font-size: 20px;
 }
 
-.section-navigation .container{
+.section-navigation .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.section-navigation .container .middle{
+.section-navigation .container .middle {
     width: 55%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.knopka{
+.knopka {
     border-radius: 10px;
     width: 20%;
     height: 47px;
@@ -66,7 +78,7 @@ h3{
     justify-content: center;
 }
 
-.knopka button{
+.knopka button {
     font-family: 'Comfortaa-Regular', sans-serif;
     color: white;
     font-size: 20px;
@@ -78,122 +90,122 @@ h3{
     transition: .3s;
 }
 
-.knopka button:hover{
+.knopka button:hover {
     background-color: #036B98;
     transition: .3s;
     cursor: pointer;
 }
 
-.section-navigation .container .middle a{
+.section-navigation .container .middle a {
     transition: .6s;
 }
 
-.section-navigation .container .middle a:hover{
+.section-navigation .container .middle a:hover {
     border-bottom: 3px white solid;
     transition: .6s;
 }
 
 /* SECTION WELCOME */
 
-.section-welcome{
+.section-welcome {
     background-image: url(../img/fon.png);
     background-size: cover;
     padding: 5%;
 }
 
-.section-welcome .container{
+.section-welcome .container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.section-welcome .container .text{
+.section-welcome .container .text {
     text-align: center;
 }
 
-.section-welcome .container .text h3{
+.section-welcome .container .text h3 {
     font-size: 48px;
     font-family: 'Comfortaa-Bold', sans-serif;
 }
 
-.section-welcome .container .text p{
+.section-welcome .container .text p {
     color: #009FE3 !important;
     font-size: 24px;
     font-family: 'Comfortaa-SemiBold', sans-serif;
 }
 
-.section-welcome .container .block .block-left p{
+.section-welcome .container .block .block-left p {
     font-size: 18px;
     letter-spacing: 2px;
 }
 
-.section-welcome .container .block{
+.section-welcome .container .block {
     margin-top: 7%;
     display: flex;
     justify-content: space-between;
     -webkit-margin-collapse: 100px;
 }
 
-.section-welcome .container .block .carousel-indicators{
+.section-welcome .container .block .carousel-indicators {
     padding-bottom: 0%;
     display: flex;
     justify-content: space-evenly;
 }
 
-.section-welcome .container .block .carousel-indicators button{
+.section-welcome .container .block .carousel-indicators button {
     width: 30%;
     height: 20px;
     border-radius: 20px;
 }
 
-.section-welcome .container .block .carousel-indicators .active{
+.section-welcome .container .block .carousel-indicators .active {
     background-color: #009FE3;
 }
 
-.section-welcome .container .block .block-left{
+.section-welcome .container .block .block-left {
     width: 40%;
 }
 
-.section-welcome .container .block .block-left .knopka-blog{
+.section-welcome .container .block .block-left .knopka-blog {
     width: 50%;
     margin-top: 15%;
 }
 
-.section-welcome .container .block .slide{
+.section-welcome .container .block .slide {
     width: 40%;
 }
 
 /* SECTION RECCOMENDATION */
 
-.section-recommendation{
+.section-recommendation {
     padding: 5%;
 }
 
-.section-recommendation .container{
+.section-recommendation .container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.section-recommendation .container .slide{
+.section-recommendation .container .slide {
     width: 100%;
 }
 
-.section-recommendation .container .slide .carousel-item .cards{
+.section-recommendation .container .slide .carousel-item .cards {
     display: flex;
     justify-content: space-between;
     margin-top: 4%;
 }
 
-.section-recommendation .container .slide .carousel-control-prev{
+.section-recommendation .container .slide .carousel-control-prev {
     margin-left: -15%;
 }
 
-.section-recommendation .container .slide .carousel-control-next{
+.section-recommendation .container .slide .carousel-control-next {
     margin-right: -15%;
 }
 
-.section-recommendation .container .slide .cards .card{
+.section-recommendation .container .slide .cards .card {
     height: 450px;
     width: 30% !important;
     background: none;
@@ -205,12 +217,12 @@ h3{
     border: 5px white solid;
 }
 
-.section-recommendation .container .slide .card img{
+.section-recommendation .container .slide .card img {
     width: 70%;
     margin-top: 5%;
 }
 
-.section-recommendation .container .slide .card .card-body{
+.section-recommendation .container .slide .card .card-body {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -218,57 +230,57 @@ h3{
     align-items: center;
 }
 
-.section-recommendation .container .slide .card .card-body h5{
+.section-recommendation .container .slide .card .card-body h5 {
     font-size: 32px;
 }
 
-.section-recommendation .container .slide .card .card-body p{
+.section-recommendation .container .slide .card .card-body p {
     font-size: 16px;
 }
 
-.section-recommendation .container .slide .card .knopka-rec{
+.section-recommendation .container .slide .card .knopka-rec {
     width: 60%;
 }
 
 /* SECTION SERVICES */
 
-.section-services{
+.section-services {
     background-image: url(../img/services.svg);
     background-size: cover;
     padding: 5%;
 }
 
-.section-services .container .text{
+.section-services .container .text {
     text-align: center;
 }
 
-.section-services .container .text p{
+.section-services .container .text p {
     font-family: "Comfortaa-SemiBold", sans-serif !important;
     font-size: 24px;
     color: #009FE3 !important;
 }
 
-.section-services .container .cards{
+.section-services .container .cards {
     margin-top: 2%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.section-services .container .cards .card li{
+.section-services .container .cards .card li {
     border: none !important;
     background: none !important;
     padding-left: 0;
 }
 
-.section-services .container .cards .card{
+.section-services .container .cards .card {
     margin-top: 2%;
     width: 48% !important;
     border: none !important;
     background: none !important;
 }
 
-.section-services .container .cards .card .li-h3{
+.section-services .container .cards .card .li-h3 {
     font-family: "Comfortaa-Bold", sans-serif;
     font-size: 24px;
     color: #009FE3 !important;
@@ -276,17 +288,17 @@ h3{
     padding-bottom: 0;
 }
 
-.section-services .container .cards .card .li-p{
+.section-services .container .cards .card .li-p {
     font-size: 18px;
 }
 
 /* SECTION EVENTS */
 
-.section-events{
+.section-events {
     padding: 5%;
 }
 
-.section-events .container .cards{
+.section-events .container .cards {
     margin-top: 2%;
     display: flex;
     flex-wrap: wrap;
@@ -294,26 +306,26 @@ h3{
     align-items: center;
 }
 
-.section-events .container .cards .card{
+.section-events .container .cards .card {
     background: none;
     border: 5px white solid;
     border-radius: 30px !important;
     margin-top: 2%;
 }
 
-.section-events .container .cards .card .col-md-4 h4{
+.section-events .container .cards .card .col-md-4 h4 {
     font-size: 48px;
     font-family: 'Merriweather-Bold';
     color: #009FE3 !important;
 }
 
-.section-events .container .cards .card .col-md-4 h5{
+.section-events .container .cards .card .col-md-4 h5 {
     font-size: 40px;
     font-family: 'Merriweather-Bold';
     color: #009FE3 !important;
 }
 
-.section-events .container .cards .card .col-md-4{
+.section-events .container .cards .card .col-md-4 {
     border-right: 5px white solid;
     display: flex;
     flex-direction: column;
@@ -321,41 +333,41 @@ h3{
     justify-content: space-evenly;
 }
 
-.section-events .container .cards .card .col-md-8 h5{
+.section-events .container .cards .card .col-md-8 h5 {
     font-size: 22px;
     font-family: 'Merriweather-Bold';
     color: #009FE3 !important;
 }
 
-.section-events .container .cards .card .col-md-8 p{
+.section-events .container .cards .card .col-md-8 p {
     font-size: 15px;
     font-family: 'Merriweather-Regular';
 }
 
-.knopka-event{
+.knopka-event {
     width: 50%;
     height: 40px;
     margin-top: 5%;
 }
 
-.section-events .container .cards .card .col-md-8 .knopka-event button{
+.section-events .container .cards .card .col-md-8 .knopka-event button {
     font-size: 14px !important;
 }
 
 /* FOOTER */
 
-footer{
+footer {
     padding: 3%;
     border-top: 10px white solid;
 }
 
-footer .container{
+footer .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-footer .container .text{
+footer .container .text {
     width: 45%;
     display: flex;
     flex-direction: column;
@@ -364,11 +376,11 @@ footer .container .text{
     align-items: center;
 }
 
-footer .container .text{
+footer .container .text {
     font-size: 14px;
 }
 
-footer .container .icons{
+footer .container .icons {
     display: flex;
     justify-content: space-between;
     width: 10%;
