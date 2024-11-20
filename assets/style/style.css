@@ -341,3 +341,35 @@ h3{
 .section-events .container .cards .card .col-md-8 .knopka-event button{
     font-size: 14px !important;
 }
+
+/* FOOTER */
+
+footer{
+    padding: 3%;
+    border-top: 10px white solid;
+}
+
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .container .text{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .container .text{
+    font-size: 14px;
+}
+
+footer .container .icons{
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+}
