@@ -37,17 +37,21 @@ h3 {
     text-align: center;
 }
 
-.section{
+.section {
     scroll-margin-top: 1em;
 }
 
-nav{
+nav {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
     background-color: #243878;
     z-index: 999;
     background: rgba(36, 56, 120, 0.9);
+}
+
+nav .burger {
+    display: none;
 }
 
 /* SECTION NAVIGATION */
@@ -403,51 +407,51 @@ footer .container .icons {
         width: 1140px;
     }
 
-    .section-navigation .container .middle p{
+    .section-navigation .container .middle p {
         font-size: 18px;
     }
 
-    h3{
+    h3 {
         font-size: 32px !important;
     }
 
-    .section-welcome .container .text p{
+    .section-welcome .container .text p {
         font-size: 20px;
     }
 
-    .section-services .container .text p{
+    .section-services .container .text p {
         font-size: 20px;
     }
 
-    .section-welcome .container .block .block-left p{
+    .section-welcome .container .block .block-left p {
         font-size: 14px;
     }
 
-    .section-welcome .container .block .carousel-indicators{
+    .section-welcome .container .block .carousel-indicators {
         padding-bottom: 20%;
     }
 
-    .section-recommendation .container .slide .card .card-body h5{
+    .section-recommendation .container .slide .card .card-body h5 {
         font-size: 26px;
     }
 
-    .knopka-rec button{
+    .knopka-rec button {
         font-size: 16px;
     }
 
-    .section-recommendation .container .slide .cards .card{
+    .section-recommendation .container .slide .cards .card {
         height: 400px;
     }
 
-    .section-recommendation .container .slide .carousel-control-next{
+    .section-recommendation .container .slide .carousel-control-next {
         margin-right: -12%;
     }
 
-    .section-recommendation .container .slide .carousel-control-prev{
+    .section-recommendation .container .slide .carousel-control-prev {
         margin-left: -12%;
     }
 
-    .section-services .container .cards .card .li-h3{
+    .section-services .container .cards .card .li-h3 {
         font-size: 20px;
     }
 
@@ -455,11 +459,126 @@ footer .container .icons {
         font-size: 14px;
     }
 
-    footer .container .text p{
+    footer .container .text p {
         font-size: 14px !important;
     }
 
-    footer .container .icons{
+    footer .container .icons {
         width: 15%;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        width: 960px;
+    }
+
+    nav .container {
+        display: none !important;
+    }
+
+    nav .burger {
+        display: block;
+    }
+
+    .navbar-toggler {
+        background-size: cover !important;
+        border: transparent !important;
+        justify-self: end;
+        width: 20%;
+    }
+
+    .navbar-toggler img {
+        width: 100%;
+    }
+
+    .container-fluid {
+        justify-content: space-between !important;
+        align-items: start;
+    }
+
+    .btn-close {
+        background-size: cover !important;
+        width: 40px !important;
+        height: 40px !important;
+        position: relative;
+        right: 70px;
+        top: 50px;
+        --bs-btn-close-opacity: 1 !important;
+        --bs-btn-close-bg: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23F87932'%3e%3cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3e%3c/svg%3e !important) !important;
+        filter: invert(1);
+    }
+
+    .burger a {
+        font-size: 24px;
+        text-decoration: underline;
+
+        letter-spacing: 5px;
+    }
+
+    .offcanvas-end{
+        background-color: #243878 !important;
+    }
+
+    .offcanvas-body{
+        background-color: #243878;
+    }
+
+    h3{
+        font-size: 26px !important;
+    }
+
+    .section-welcome .container .text p{
+        font-size: 16px;
+    }
+
+    .section-services .container .text p{
+        font-size: 16px;
+    }
+
+    .section-welcome .container .block .block-left p{
+        font-size: 12px;
+    }
+
+    .knopka-blog button{
+        font-size: 14px;
+    }
+
+    .section-welcome .container .block .carousel-indicators {
+        padding-bottom: 50%;
+    }
+
+    .section-recommendation .container .slide .cards .card {
+        height: 300px;
+    }
+
+    .section-recommendation .container .slide .card .card-body h5 {
+        font-size: 22px;
+    }
+
+    .section-recommendation .container .slide .card .card-body p {
+        font-size: 14px;
+    }
+
+    .knopka-rec button{
+        font-size: 14px;
+    }
+
+    .section-recommendation .container .slide .carousel-control-next {
+        margin-right: -12%;
+        margin-left: 0 !important;
+    }
+
+    .section-services .container .cards .card img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .section-services .container .cards .card .li-h3{
+        font-size: 18px;
+    }
+
+    .section-services .container .cards .card .li-p {
+        font-size: 12px;
     }
 }
