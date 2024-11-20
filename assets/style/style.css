@@ -708,6 +708,22 @@ footer .container .icons {
     footer .container .text p{
         font-size: 10px !important;
     }
+
+    .offcanvas{
+        width: 70% !important;
+    }
+
+    .section-events .container .cards .card .col-md-8 .knopka-event button{
+        font-size: 12px !important;
+    }
+
+    footer .container .text p{
+        font-size: 8px !important;
+    }
+
+    footer .container .icons{
+        width: 20%;
+    }
 }
 
 
